@@ -2,16 +2,9 @@
 from numpy import log # Ln function
 from math import *
 from time import sleep
+from packages import constants as const
 
-    # Units
-u = float(931.5)
-eV = float(1.6*10**-19)
-MeV = float(1.6*10**-13)
-NA = float(6.02*10**23) #Avocadro constant
 
-    # Constants values
-proton_mass = float(1.00727)
-neutron_mass = float(1.00867)
 
 class Nuclear():
 
@@ -32,14 +25,14 @@ class Nuclear():
         # A method for calculating the value of Mass Deficiency
 
         nuclide_mass = float(input("Please write the nuclide mass "))
-        mass_deficiency = float(self.protons * proton_mass + self.neutrons * neutron_mass) - nuclide_mass
+        mass_deficiency = float(self.protons * const.proton_mass + self.neutrons * const.neutron_mass) - nuclide_mass
         print("So the mass deficiency ", format(mass_deficiency,'.5f'))
         
 
     def bonding_energy(self):
         # Looking for bonding energy !
         nuclide_mass = float(input("Please write the nuclide mass to get the bonding energy ")) # From the user
-        bonding_energy = float((self.protons * proton_mass + self.neutrons * neutron_mass) - nuclide_mass) * u
+        bonding_energy = float((self.protons * const.proton_mass + self.neutrons * const.neutron_mass) - nuclide_mass) * const.u
         print("The energy of bonding is ",format(bonding_energy,'5f')," MeV")
 
     def bonding_energy_one_nucleus(self):
@@ -107,14 +100,14 @@ class Nuclear():
             mol_quantity = float(input("How many moles of the break-up of carbon nuclide ? "))
             nuclear_energy = float(input("give me the value of the nuclear energy ? "))
 
-            ef = float(mol_quantity * NA * nuclear_energy)
+            ef = float(mol_quantity * const.NA * nuclear_energy)
             print("So the energy of the fragmentation of ",mol_quantity," mol from ",self.name," is ",ef)
 
         elif fragmentation_option == 2:
             g_quantity = int(input("How many grams of fragmentation of carbon nuclide ? "))
             nuclear_energy = float(input("give me the value of the nuclear energy  ? "))
 
-            ef = float(((g_quantity*NA) / self.nuclides) * nuclear_energy)
+            ef = float(((g_quantity * const.NA) / self.nuclides) * nuclear_energy)
             print("So the energy of the fragmentation of ",g_quantity," gram from ",self.name," is ",ef)
 
         else:
