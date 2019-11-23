@@ -1,1 +1,0 @@
-A simply script that help you to study the nuclides
