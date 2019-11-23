@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='petron',
-    version='1.0',
-    packages=[''],
+    version='1.1',
+    packages=['packages'],
     url='https://github.com/farhatizakaria/petron',
     license='MIT License',
     author='Zakaria Farhati',
