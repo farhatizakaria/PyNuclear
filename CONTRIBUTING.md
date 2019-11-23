@@ -1,2 +1,2 @@
 ## Contributing
-So this file to tell for anyone wanna help me in Petron's project, to make this script more smart !
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
