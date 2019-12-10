@@ -8,9 +8,9 @@ This program have many methods so it's could be difficulte to understand the scr
 ``$ python3 -m pip install -r requirements.txt ``
 
 ## OS SUPPORT:
-Windows
-Linux
-Max
+* Windows
+* Linux
+* Mac
 
 ## The objective of Petron
 Help people for stuying the Nuclear Physics 
