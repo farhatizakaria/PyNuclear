@@ -15,6 +15,9 @@ This program have many methods so it's could be difficulte to understand the scr
 ## The objective of Petron
 Help people for stuying the Nuclear Physics 
 
+## Do you want a help / ask ?
+you can make an issue and I'll respond you quickly as I can !
+
 ## The technical support:
 24h / 24 and 7days / 7
 you can also send an E-Mail if there's a bugs or errors :wink:
