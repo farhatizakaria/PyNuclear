@@ -8,7 +8,7 @@ This program have many methods so it's could be difficulte to understand the scr
 ``$ python3 -m pip install -r requirements.txt ``
 
 ## OS SUPPORT:
-* Windows
+* Windows for all versions that support Python3
 * Linux
 * Mac
 
