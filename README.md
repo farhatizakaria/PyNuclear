@@ -1,7 +1,7 @@
 # Petron
 A script can help you to study nuclear physics :radioactive: for students or teachers :) :school_satchel:
 without any error or proplem just give it what it want to get, I mean the essentiel Data to help you.
-This program have many methods so it's could be difficulte to understand the script " if you a beginner in Python "
+This program have many methods so it's could be difficulte to understand the script " if you a beginner in Python ", I suggest you to learn the basics of the atomic masses and atomic energies
 
 ## Install
 
