@@ -7,18 +7,18 @@ This program have many methods so it's could be difficulte to understand the scr
 
 ``$ python3 -m pip install -r requirements.txt ``
 
-## OS SUPPORT:
-* Windows for all versions that support Python3
-* Linux
-* Mac
+## OS SUPPORT
+*Windows for all versions that support Python3
+*Linux
+*Mac
 
 ## The objective of Petron
 Help people for stuying the Nuclear Physics 
 
-## Do you want a help / ask ?
+## Asking for help
 you can make an issue and I'll respond you quickly as I can !
 
-## The technical support:
+## The technical support
 24h / 24 and 7days / 7
 you can also send an E-Mail if there's a bugs or errors :wink:
 
